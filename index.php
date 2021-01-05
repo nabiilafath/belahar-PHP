@@ -30,7 +30,7 @@ while($row=$hasil->fetch_assoc())
         <td><?=$row['Alamat'];?></td>
         <td>
         <a href="update.php?NIM=<?=$row['NIM'];?>">Update</a>
-        <a href="pressess-delete.php">Hapus</a>
+        <a href="process-delete.php">Hapus</a>
         </td>
     </tr>
 
